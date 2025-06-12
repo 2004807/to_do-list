@@ -1,0 +1,37 @@
+body {
+    font-family: Arial,  sans-serif;
+    background-color: rgb(159, 85, 228);
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+}
+h1 {
+text-align: center;
+color: black;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+input {
+    padding: 10px;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: rgb(177, 138, 214);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+li {
+    margin: 5px 0;
+}
